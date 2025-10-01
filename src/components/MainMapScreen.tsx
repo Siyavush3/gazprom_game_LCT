@@ -65,10 +65,6 @@ export default function MainMapScreen({
               backgroundColor: 'rgba(88, 255, 255, 0.08)',
               marginBottom: '16px'
             }}>
-              <h3 style={{ color: 'var(--accent-energy)' }}>�� Инженер будущего</h3>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>
-                Вы успешно распределили энергию.
-              </p>
             </div>
           )}
           <ShipMap onSelect={onLocationSelect} />
