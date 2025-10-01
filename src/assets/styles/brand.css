@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'HALVAR';
+  src: url('/fonts/HALVAR.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gazprom Sans';
+  src: url('/fonts/GazpromSans.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --bg-screen: #000;
+  --bg-card: #0D0D1A;
+  --text-primary: #DEE1EE;
+  --text-secondary: #6088E4;
+  --accent-primary: #1919EF;
+  --accent-energy: #58FFFF;
+  --accent-warning: #DD41DB;
+  --accent-border: #3CFFB9;
+}
